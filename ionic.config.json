@@ -1,0 +1,7 @@
+{
+    "name": "cakes-gallery",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }
