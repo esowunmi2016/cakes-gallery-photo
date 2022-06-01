@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/esowunmi2016/cakes-gallery-photo/static/css/main.00ef0533.css",
-    "main.js": "/esowunmi2016/cakes-gallery-photo/static/js/main.e464b5b0.js",
+    "main.css": "/esowunmi2016/cakes-gallery-photo/static/css/main.3f1c9a9f.css",
+    "main.js": "/esowunmi2016/cakes-gallery-photo/static/js/main.21656cbc.js",
     "static/js/787.248fa3a3.chunk.js": "/esowunmi2016/cakes-gallery-photo/static/js/787.248fa3a3.chunk.js",
     "static/media/4.jpg": "/esowunmi2016/cakes-gallery-photo/static/media/4.f1c5882f8b7a854c69b2.jpg",
     "static/media/15.jpg": "/esowunmi2016/cakes-gallery-photo/static/media/15.810d673fed49cb1bd182.jpg",
@@ -18,14 +18,13 @@
     "static/media/14.jpg": "/esowunmi2016/cakes-gallery-photo/static/media/14.e8e42c3368f75bcbf8ca.jpg",
     "static/media/5.jpg": "/esowunmi2016/cakes-gallery-photo/static/media/5.5982eb94da28ab4da288.jpg",
     "static/media/3.jpg": "/esowunmi2016/cakes-gallery-photo/static/media/3.e217ddc06ff2f978bc86.jpg",
-    "static/media/logo.svg": "/esowunmi2016/cakes-gallery-photo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/esowunmi2016/cakes-gallery-photo/index.html",
-    "main.00ef0533.css.map": "/esowunmi2016/cakes-gallery-photo/static/css/main.00ef0533.css.map",
-    "main.e464b5b0.js.map": "/esowunmi2016/cakes-gallery-photo/static/js/main.e464b5b0.js.map",
+    "main.3f1c9a9f.css.map": "/esowunmi2016/cakes-gallery-photo/static/css/main.3f1c9a9f.css.map",
+    "main.21656cbc.js.map": "/esowunmi2016/cakes-gallery-photo/static/js/main.21656cbc.js.map",
     "787.248fa3a3.chunk.js.map": "/esowunmi2016/cakes-gallery-photo/static/js/787.248fa3a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00ef0533.css",
-    "static/js/main.e464b5b0.js"
+    "static/css/main.3f1c9a9f.css",
+    "static/js/main.21656cbc.js"
   ]
 }
