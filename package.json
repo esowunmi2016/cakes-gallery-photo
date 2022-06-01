@@ -1,7 +1,7 @@
 {
   "name": "cakes-gallery",
   "version": "0.1.0",
-  "homepage": "https://github.com/esowunmi2016/cakes-gallery-photo",
+  "homepage": "https://esowunmi2016.github.io/cakes-gallery-photo/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
