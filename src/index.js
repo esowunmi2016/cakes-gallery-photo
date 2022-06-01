@@ -15,7 +15,7 @@ import TallCakes from './pages/tallCakes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename='/cakes-gallery-photo'>
     <Routes>
       <Route path="/" element={<Categories />} />
       <Route path="weddingCakes" element={<WeddingCakes />} />
