@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/cakes-gallery-photo/static/css/main.3f1c9a9f.css",
-    "main.js": "/cakes-gallery-photo/static/js/main.1873742b.js",
+    "main.js": "/cakes-gallery-photo/static/js/main.05ba081b.js",
     "static/js/787.248fa3a3.chunk.js": "/cakes-gallery-photo/static/js/787.248fa3a3.chunk.js",
-    "static/media/4.jpg": "/cakes-gallery-photo/static/media/4.f1c5882f8b7a854c69b2.jpg",
-    "static/media/15.jpg": "/cakes-gallery-photo/static/media/15.810d673fed49cb1bd182.jpg",
-    "static/media/2.jpg": "/cakes-gallery-photo/static/media/2.34279c0c5fd8be185d6e.jpg",
-    "static/media/7.jpg": "/cakes-gallery-photo/static/media/7.d51988252fbcb950bef0.jpg",
-    "static/media/6.jpg": "/cakes-gallery-photo/static/media/6.a555ac08df2de39b0dc0.jpg",
-    "static/media/1.jpg": "/cakes-gallery-photo/static/media/1.b5ab110479f4c16525f4.jpg",
-    "static/media/11.jpg": "/cakes-gallery-photo/static/media/11.679c139c6a8d026cb0a8.jpg",
-    "static/media/9.jpg": "/cakes-gallery-photo/static/media/9.6a199d2504eb52ad1586.jpg",
-    "static/media/10.jpg": "/cakes-gallery-photo/static/media/10.2faac9fd11cc5a0523b9.jpg",
-    "static/media/13.jpg": "/cakes-gallery-photo/static/media/13.b490dd9d8bd17583a10a.jpg",
-    "static/media/8.jpg": "/cakes-gallery-photo/static/media/8.bf4d9837dab46687d7a2.jpg",
-    "static/media/12.jpg": "/cakes-gallery-photo/static/media/12.5ff38c04fdc17be70396.jpg",
-    "static/media/14.jpg": "/cakes-gallery-photo/static/media/14.e8e42c3368f75bcbf8ca.jpg",
+    "static/media/4.jpg": "/cakes-gallery-photo/static/media/4.814e810f561a5730ce2f.jpg",
+    "static/media/7.jpg": "/cakes-gallery-photo/static/media/7.3602f41c8d951462e0f0.jpg",
     "static/media/5.jpg": "/cakes-gallery-photo/static/media/5.5982eb94da28ab4da288.jpg",
+    "static/media/13.jpg": "/cakes-gallery-photo/static/media/13.b490dd9d8bd17583a10a.jpg",
+    "static/media/15.jpg": "/cakes-gallery-photo/static/media/15.d0a8f46175544dbd83c1.jpg",
+    "static/media/12.jpg": "/cakes-gallery-photo/static/media/12.5ff38c04fdc17be70396.jpg",
+    "static/media/2.jpg": "/cakes-gallery-photo/static/media/2.9d8fb1351851d3f70d76.jpg",
+    "static/media/6.jpg": "/cakes-gallery-photo/static/media/6.8987e7a7e43570a267bd.jpg",
+    "static/media/1.jpg": "/cakes-gallery-photo/static/media/1.b5ab110479f4c16525f4.jpg",
+    "static/media/11.jpg": "/cakes-gallery-photo/static/media/11.e8e42c3368f75bcbf8ca.jpg",
     "static/media/3.jpg": "/cakes-gallery-photo/static/media/3.e217ddc06ff2f978bc86.jpg",
+    "static/media/9.jpg": "/cakes-gallery-photo/static/media/9.f8530ddfa7f8e8ada88c.jpg",
+    "static/media/8.jpg": "/cakes-gallery-photo/static/media/8.ab4a9e6b0e43e0e03ee0.jpg",
+    "static/media/14.jpg": "/cakes-gallery-photo/static/media/14.e8e42c3368f75bcbf8ca.jpg",
+    "static/media/10.jpg": "/cakes-gallery-photo/static/media/10.6237d27664cb90ca1493.jpg",
+    "static/media/16.jpg": "/cakes-gallery-photo/static/media/16.5083b7e27d58589e42f7.jpg",
     "index.html": "/cakes-gallery-photo/index.html",
     "main.3f1c9a9f.css.map": "/cakes-gallery-photo/static/css/main.3f1c9a9f.css.map",
-    "main.1873742b.js.map": "/cakes-gallery-photo/static/js/main.1873742b.js.map",
+    "main.05ba081b.js.map": "/cakes-gallery-photo/static/js/main.05ba081b.js.map",
     "787.248fa3a3.chunk.js.map": "/cakes-gallery-photo/static/js/787.248fa3a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f1c9a9f.css",
-    "static/js/main.1873742b.js"
+    "static/js/main.05ba081b.js"
   ]
 }
