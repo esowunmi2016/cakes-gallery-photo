@@ -11,6 +11,7 @@ import ChildrenCakes from './pages/childrenCakes';
 import FondatCakes from './pages/fondantCakes';
 import ButterCreamCakes from './pages/butterCreamCakes';
 import TallCakes from './pages/tallCakes';
+import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
