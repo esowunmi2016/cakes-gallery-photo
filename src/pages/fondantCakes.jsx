@@ -2,6 +2,7 @@ import { useState } from "react";
 import CategoryTab from "../components/categoryTab";
 import SwiperSlideComponent from "../components/swiperSlideComponent";
 import dataTest1 from '../utilities/testData1';
+import fondantCakesData from '../utilities/fondantCakes';
 import { Fade, Zoom } from "react-reveal";
 import { Modal, Card } from "antd";
 const { Meta } = Card;
@@ -18,7 +19,7 @@ function FondatCakes() {
       <div className="row d-flex justify-content-center align-items-center">
         <Zoom>
           {
-            dataTest1.map(data=>(
+            fondantCakesData.map(data=>(
               <div className="col-3 d-flex justify-content-center align-items-center py-4">
                 <Card
                   hoverable
@@ -42,7 +43,7 @@ function FondatCakes() {
         centered
       
       >
-        <SwiperSlideComponent data={dataTest1} />
+        <SwiperSlideComponent data={fondantCakesData} />
       </Modal>
     </>
   );
