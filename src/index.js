@@ -15,16 +15,19 @@ import TallCakes from './pages/tallCakes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Routes>
-      <Route path="/" element={<Categories />} />
-      <Route path="weddingCakes" element={<WeddingCakes />} />
-      <Route path="childrenCakes" element={<ChildrenCakes />} />
-      <Route path="fondatCakes" element={<FondatCakes />} />
-      <Route path="butterCreamCakes" element={<ButterCreamCakes />} />
-      <Route path="tallCakes" element={<TallCakes />} />
-    </Routes>
-  </BrowserRouter>
+  // <BrowserRouter basename={process.env.PUBLIC_URL}>
+  //   <Routes>
+  //     <Route path="/" element={<Categories />} />
+  //     <Route path="weddingCakes" element={<WeddingCakes />} />
+  //     <Route path="childrenCakes" element={<ChildrenCakes />} />
+  //     <Route path="fondatCakes" element={<FondatCakes />} />
+  //     <Route path="butterCreamCakes" element={<ButterCreamCakes />} />
+  //     <Route path="tallCakes" element={<TallCakes />} />
+  //   </Routes>
+  // </BrowserRouter>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function
