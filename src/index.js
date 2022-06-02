@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'antd/dist/antd.css';
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 
 import Categories from './pages/categories';
 import WeddingCakes from  './pages/weddingCakes'
@@ -15,7 +15,7 @@ import TallCakes from './pages/tallCakes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename='/cakes-gallery-photo'>
+  <HashRouter basename='/cakes-gallery-photo'>
     <Routes>
       <Route path="/" element={<Categories />} />
       <Route path="/cakes-gallery-photo/weddingCakes" element={<WeddingCakes />} />
@@ -24,7 +24,7 @@ root.render(
       <Route path="/cakes-gallery-photo/butterCreamCakes" element={<ButterCreamCakes />} />
       <Route path="/cakes-gallery-photo/tallCakes" element={<TallCakes />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
