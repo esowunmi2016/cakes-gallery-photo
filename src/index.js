@@ -15,7 +15,7 @@ import TallCakes from './pages/tallCakes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter basename='/cakes-gallery-photo'>
+  <BrowserRouter basename='/cakes-gallery-photo'>
     <Routes>
       <Route path="/" element={<Categories />} />
       <Route path="/cakes-gallery-photo/weddingCakes" element={<WeddingCakes />} />
@@ -24,7 +24,7 @@ root.render(
       <Route path="/cakes-gallery-photo/butterCreamCakes" element={<ButterCreamCakes />} />
       <Route path="/cakes-gallery-photo/tallCakes" element={<TallCakes />} />
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
