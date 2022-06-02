@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'antd/dist/antd.css';
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 
 import Categories from './pages/categories';
 import WeddingCakes from  './pages/weddingCakes'
@@ -18,11 +18,11 @@ root.render(
   <BrowserRouter basename='/cakes-gallery-photo'>
     <Routes>
       <Route path="/" element={<Categories />} />
-      <Route path="/cakes-gallery-photo/weddingCakes" element={<WeddingCakes />} />
-      <Route path="/cakes-gallery-photo/childrenCakes" element={<ChildrenCakes />} />
-      <Route path="/cakes-gallery-photo/fondatCakes" element={<FondatCakes />} />
-      <Route path="/cakes-gallery-photo/butterCreamCakes" element={<ButterCreamCakes />} />
-      <Route path="/cakes-gallery-photo/tallCakes" element={<TallCakes />} />
+      <Route path="/weddingCakes" element={<WeddingCakes />} />
+      <Route path="/childrenCakes" element={<ChildrenCakes />} />
+      <Route path="/fondatCakes" element={<FondatCakes />} />
+      <Route path="/butterCreamCakes" element={<ButterCreamCakes />} />
+      <Route path="/tallCakes" element={<TallCakes />} />
     </Routes>
   </BrowserRouter>
 );
