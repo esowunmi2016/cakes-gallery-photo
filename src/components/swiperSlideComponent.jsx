@@ -16,52 +16,52 @@ function SwiperSlideComponent(props) {
 
   return ( 
     <>
-    <Zoom>
-      <Swiper
-          effect={"coverflow"}
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={"auto"}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          }}
-          thumbs={{ swiper: thumbsSwiper }}
-          // pagination={true}
-          modules={[EffectCoverflow, Pagination, Thumbs]}
-          className="mySwiper"
+      <Zoom>
+        <Swiper
+            effect={"coverflow"}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={"auto"}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier:1,
+              slideShadows: true,
+            }}
+            thumbs={{ swiper: thumbsSwiper }}
+            // pagination={true}
+            modules={[EffectCoverflow, Pagination, Thumbs]}
+            className="mySwiper"
+          >
+            {
+              props.data.map(data=>(
+                <SwiperSlide className="swiperSlide">
+                  <img src={data.img} />
+                </SwiperSlide>
+              ))
+            }
+          </Swiper>
+
+          <Swiper
+            onSwiper={setThumbsSwiper}
+            // loop={true}
+            spaceBetween={10}
+            slidesPerView={'auto'}
+            // freeMode={true}
+            watchSlidesProgress={true}
+            modules={[FreeMode, Navigation, Thumbs]}
+            className="mySwiper2"
         >
           {
             props.data.map(data=>(
-              <SwiperSlide className="swiperSlide">
+              <SwiperSlide className="swiperSlideThumb">
                 <img src={data.img} />
               </SwiperSlide>
             ))
-          }
+            }
         </Swiper>
-
-        <Swiper
-          onSwiper={setThumbsSwiper}
-          // loop={true}
-          spaceBetween={10}
-          slidesPerView={'auto'}
-          // freeMode={true}
-          watchSlidesProgress={true}
-          modules={[FreeMode, Navigation, Thumbs]}
-          className="mySwiper2"
-      >
-        {
-          props.data.map(data=>(
-            <SwiperSlide className="swiperSlideThumb">
-              <img src={data.img} />
-            </SwiperSlide>
-          ))
-          }
-      </Swiper>
-    </Zoom>
+      </Zoom>
     </>
   );
 }
