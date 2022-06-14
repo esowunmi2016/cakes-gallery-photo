@@ -1,10 +1,11 @@
 import { useState } from "react";
 import CategoryTab from "../components/categoryTab";
 import SwiperSlideComponent from "../components/swiperSlideComponent";
+import ImgComponent1 from "../components/antdimgComponent";
 import dataTest1 from '../utilities/testData1';
 import fondantCakesData from '../utilities/fondantCakes';
 import { Fade, Zoom } from "react-reveal";
-import { Modal, Card } from "antd";
+import { Modal, Card, Image } from "antd";
 const { Meta } = Card;
 
 function FondatCakes() {
@@ -35,7 +36,7 @@ function FondatCakes() {
         </Zoom>
       </div>
 
-      <Modal
+      {/* <Modal
         visible={visible}
         onCancel={()=>setvisible(false)}
         footer={null}
@@ -45,6 +46,19 @@ function FondatCakes() {
       >
         <SwiperSlideComponent data={fondantCakesData} />
       </Modal>
+       */}
+     
+
+
+      <div style={{ display: 'none' }}>
+        <Image.PreviewGroup preview={{ visible, onVisibleChange: vis => setvisible(vis) }}>
+          {(fondantCakesData.map(data=>(
+            <Image src={data.img} />
+          )))}
+        </Image.PreviewGroup>
+      </div>
+      
+      
     </>
   );
 }
