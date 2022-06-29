@@ -4,29 +4,36 @@ import SwiperSlideComponent from "../components/swiperSlideComponent";
 import dataTest1 from '../utilities/testData1';
 import butterCreamCakesData from "../utilities/butterCreamData";
 import { Fade, Zoom } from "react-reveal";
-import { Modal, Card } from "antd";
+import { Modal, Card, Image } from "antd";
 const { Meta } = Card;
 
 
 function ButterCreamCakes() {
 
   const [visible, setvisible] = useState(false)
+  const [current, setcurrent] = useState()
+  
+
+  const onClick =(current)=>{
+    setcurrent(current)
+    setvisible(true)
+  }
 
   return ( 
     <>
       <CategoryTab name='Butter Cream Cakes' />
 
           
-      <div className="row d-flex justify-content-center align-items-center">
+      <div className="row d-flex justify-content-center align-items-center px-4">
         <Zoom>
           {
             butterCreamCakesData.map(data=>(
-              <div className="col-3 d-flex justify-content-center align-items-center py-4">
+              <div className="col-md-3 col-6 d-flex justify-content-center align-items-center py-4 px-4">
                 <Card
                   hoverable
-                  style={{ width: 240, borderRadius:'3%' }}
+                  style={{ width: 170, borderRadius:'3%' }}
                   cover={<img alt={data.name} src={data.img} />}
-                  onClick={()=>setvisible(true)}
+                  onClick={()=>onClick(data.id-1)}
                 >
                   <Meta title={data.name} />
                 </Card>
@@ -36,16 +43,15 @@ function ButterCreamCakes() {
         </Zoom>
       </div>
 
-      <Modal
-        visible={visible}
-        onCancel={()=>setvisible(false)}
-        footer={null}
-        width={1000}
-        centered
+
+      <div style={{ display: 'none' }}>
+        <Image.PreviewGroup preview={{ visible, onVisibleChange: vis => setvisible(vis), current }}>
+          {(butterCreamCakesData.map(data=>(
+            <Image src={data.img} />
+          )))}
+        </Image.PreviewGroup>
+      </div>
       
-      >
-        <SwiperSlideComponent data={butterCreamCakesData} />
-      </Modal>
     </>
   );
 }

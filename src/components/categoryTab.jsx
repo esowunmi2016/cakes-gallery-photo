@@ -30,7 +30,7 @@ function CategoryTab(props) {
           className="d-flex justify-content-center align-items-center" 
           style={{
             height:'50%', 
-            fontSize:'322%', 
+            fontSize:'200%', 
             fontWeight:'bold',
           }}
         >

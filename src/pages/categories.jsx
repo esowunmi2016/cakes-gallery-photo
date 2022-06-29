@@ -49,7 +49,7 @@ function Categories() {
       <div
         className="d-flex align-items-center justify-content-center"
         style={{
-          fontSize:'300%',
+          fontSize:'200%',
           fontWeight:'bold',
           display:'block',
           height:'10vh',
@@ -86,11 +86,11 @@ function Categories() {
             >
               {
                 categories.map(data=>(
-                  <div className='col-4 d-flex justify-content-center align-items-center py-4'>
+                  <div className='col-md-4 col-sm-6 d-flex justify-content-center align-items-center py-4'>
                     <Link to={data.link}>
                       <Card
                         hoverable
-                        style={{  borderRadius:'3%' }}
+                        style={{  borderRadius:'3%', width:'100%' }}
                         cover={<img alt={data.name} src={data.img} />}
                         // bodyStyle={{height:'0vh'}}
                       >
